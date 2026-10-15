@@ -6,6 +6,7 @@ test.describe('Account and Customer Forms', () => {
     const unknownEmail = createUniqueEmail(accountTestData.invalidLogin.emailPrefix);
 
     // 1. Start in a fresh browser context and open Log in.
+    console.log(`Attempting to sign in with unknown email: ${unknownEmail}`);
     await loginPage.open();
     await loginPage.expectFormVisible();
 
