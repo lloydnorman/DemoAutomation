@@ -1,12 +1,11 @@
 import { test } from '../../../src/fixtures/base.fixture';
 import { accountTestData, createUniqueEmail } from '../../../src/utils/account-test-data';
 
-test.describe('Account and Customer Forms', () => {
+test.describe('Login Recovery Validation', () => {
   test('Reject invalid login and request password recovery', async ({ loginPage, passwordRecoveryPage }) => {
     const unknownEmail = createUniqueEmail(accountTestData.invalidLogin.emailPrefix);
 
     // 1. Start in a fresh browser context and open Log in.
-    console.log(`Attempting to sign in with unknown email: ${unknownEmail}`);
     await loginPage.open();
     await loginPage.expectFormVisible();
 

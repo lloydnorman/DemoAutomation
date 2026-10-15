@@ -1,7 +1,7 @@
 import { test } from '../../../src/fixtures/base.fixture';
 import { accountTestData, createUniqueEmail } from '../../../src/utils/account-test-data';
 
-test.describe('Account and Customer Forms', () => {
+test.describe('Registration and Login', () => {
   test('Register, sign out, and sign in', async ({ registrationPage, loginPage, customerAccountPage }) => {
     const account = accountTestData.registration;
     const email = createUniqueEmail(account.emailPrefix);
@@ -15,7 +15,7 @@ test.describe('Account and Customer Forms', () => {
     await loginPage.signOut();
     await loginPage.expectSignedOut();
     await loginPage.open();
-    
+
     console.log(`Signing in with email: ${email}`);
     await loginPage.signIn(email, account.password);
     await loginPage.expectSignedIn(email);
