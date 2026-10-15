@@ -1,0 +1,13 @@
+{
+  "registration": {
+    "gender": "Male",
+    "firstName": "Copilot",
+    "lastName": "QA",
+    "emailPrefix": "copilot.qa",
+    "password": "P@ssw0rd2026"
+  },
+  "invalidLogin": {
+    "emailPrefix": "unknown.qa",
+    "password": "WrongPassword2026!"
+  }
+}
