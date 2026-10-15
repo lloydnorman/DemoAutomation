@@ -6,6 +6,7 @@ test.describe('Account and Customer Forms', () => {
     const account = accountTestData.registration;
     const email = createUniqueEmail(account.emailPrefix);
 
+    console.log(`Registering with email: ${email}`);
     // 1. Start in a fresh browser context. Register with valid gender, first name, last name, a unique email address, and a valid matching password pair.
     await registrationPage.register({ ...account, email });
     await registrationPage.expectRegistered(email);
@@ -14,6 +15,8 @@ test.describe('Account and Customer Forms', () => {
     await loginPage.signOut();
     await loginPage.expectSignedOut();
     await loginPage.open();
+    
+    console.log(`Signing in with email: ${email}`);
     await loginPage.signIn(email, account.password);
     await loginPage.expectSignedIn(email);
 
