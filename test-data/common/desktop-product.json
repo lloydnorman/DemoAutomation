@@ -1,0 +1,33 @@
+{
+  "productId": "16",
+  "productPath": "/build-your-own-computer",
+  "productName": "Build your own computer",
+  "processor": {
+    "value": "13",
+    "cartText": "Processor: 2.2 GHz Intel Pentium Dual-Core E2200"
+  },
+  "ram": {
+    "value": "16",
+    "cartText": "RAM: 4GB [+20.00]"
+  },
+  "hdd": {
+    "value": "19",
+    "cartText": "HDD: 400 GB [+100.00]"
+  },
+  "operatingSystem": {
+    "value": "21",
+    "cartText": "OS: Windows 10 [+60.00]"
+  },
+  "software": {
+    "value": "23",
+    "cartText": "Software: Acrobat Reader [+10.00]"
+  },
+  "additionalSoftware": {
+    "cartText": "Software: Microsoft Office [+50.00]"
+  },
+  "quantityToAdd": "2",
+  "quantityAfterUpdate": "1",
+  "unitPrice": "1440.00",
+  "lineTotalAfterAdd": "2880.00",
+  "subtotalAfterUpdate": "1440.00"
+}
