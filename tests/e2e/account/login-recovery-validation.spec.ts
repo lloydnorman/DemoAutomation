@@ -10,6 +10,7 @@ test.describe('Login Recovery Validation', () => {
     await loginPage.expectFormVisible();
 
     // 2. Submit invalid credentials for an email that is not registered in this run.
+    console.log(`Testing with unknown email: ${unknownEmail}`);
     await loginPage.signIn(unknownEmail, accountTestData.invalidLogin.password);
     await loginPage.expectInvalidCredentials();
 
