@@ -1,8 +1,8 @@
 // spec: specs/demo-web-shop-e2e-test-plan.md
 // seed: tests/seed.spec.ts
 
-import { test } from '../../../src/fixtures/shopping.fixture';
-import { desktopProductTestData } from '../../../src/types/desktop-product-test-data';
+import { test } from '../../src/fixtures/shopping.fixture';
+import { desktopProductTestData } from '../../src/types/desktop-product-test-data';
 
 test.describe('Cart and Checkout', () => {
   test('Configure a desktop and manage cart quantity', async ({ desktopConfigurationPage, shoppingCartPage }) => {
