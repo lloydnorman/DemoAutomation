@@ -1,5 +1,5 @@
-import { test } from '../../../src/fixtures/base.fixture';
-import { accountTestData, createUniqueEmail } from '../../../src/utils/account-test-data';
+import { test } from '../../src/fixtures/base.fixture';
+import { accountTestData, createUniqueEmail } from '../../src/utils/account-test-data';
 
 test.describe('Login Recovery Validation', () => {
   test('Reject invalid login and request password recovery', async ({ loginPage, passwordRecoveryPage }) => {

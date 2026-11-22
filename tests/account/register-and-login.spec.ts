@@ -1,5 +1,5 @@
-import { test } from '../../../src/fixtures/base.fixture';
-import { accountTestData, createUniqueEmail } from '../../../src/utils/account-test-data';
+import { test } from '../../src/fixtures/base.fixture';
+import { accountTestData, createUniqueEmail } from '../../src/utils/account-test-data';
 
 test.describe('Registration and Login', () => {
   test('Register, sign out, and sign in', async ({ registrationPage, loginPage, customerAccountPage }) => {
