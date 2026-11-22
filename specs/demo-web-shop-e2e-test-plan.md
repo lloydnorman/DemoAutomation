@@ -10,7 +10,7 @@ End-to-end coverage for the Tricentis Demo Web Shop at https://demowebshop.trice
 
 **Seed:** `tests/seed.spec.ts`
 
-#### 1.1. Browse a category and inspect a product
+#### 1.1. Browse a category and inspect a product - done automation
 
 **File:** `tests/storefront/browse-category-product.spec.ts`
 
@@ -24,7 +24,7 @@ End-to-end coverage for the Tricentis Demo Web Shop at https://demowebshop.trice
   3. Use the breadcrumb to return to the category, then use the category navigation to open another category.
     - expect: Navigation reaches the selected category and does not leave stale product details visible.
 
-#### 1.2. Search for a product and handle no results
+#### 1.2. Search for a product and handle no results - done automation
 
 **File:** `tests/storefront/search-products.spec.ts`
 
@@ -37,7 +37,7 @@ End-to-end coverage for the Tricentis Demo Web Shop at https://demowebshop.trice
   3. Submit the search form with an empty query.
     - expect: The application handles the empty query without an unhandled error or broken page.
 
-#### 1.3. Add products to wishlist and compare list
+#### 1.3. Add products to wishlist and compare list - done automation
 
 **File:** `tests/storefront/wishlist-compare.spec.ts`
 
@@ -56,7 +56,7 @@ End-to-end coverage for the Tricentis Demo Web Shop at https://demowebshop.trice
 
 **Seed:** `tests/seed.spec.ts`
 
-#### 2.1. Validate required registration fields and password match
+#### 2.1. Validate required registration fields and password match - done automation
 
 **File:** `tests/account/registration-validation.spec.ts`
 
@@ -70,7 +70,7 @@ End-to-end coverage for the Tricentis Demo Web Shop at https://demowebshop.trice
     - expect: The email format and password mismatch are reported clearly.
     - expect: The account is not created.
 
-#### 2.2. Register, sign out, and sign in
+#### 2.2. Register, sign out, and sign in - done automation
 
 **File:** `tests/account/register-and-login.spec.ts`
 
@@ -95,7 +95,7 @@ End-to-end coverage for the Tricentis Demo Web Shop at https://demowebshop.trice
   3. Open Forgot password, enter a syntactically valid email address, and submit the recovery request.
     - expect: The recovery page provides clear confirmation or validation feedback without exposing account credentials.
 
-#### 2.4. Submit newsletter and community poll inputs
+#### 2.4. Submit newsletter and community poll inputs - done automation
 
 **File:** `tests/account/newsletter-poll.spec.ts`
 
@@ -108,7 +108,7 @@ End-to-end coverage for the Tricentis Demo Web Shop at https://demowebshop.trice
     - expect: The application confirms the vote or indicates that a vote has already been recorded.
     - expect: The poll remains usable and its response controls do not become malformed.
 
-### 3. Cart and Checkout
+### 3. Cart and Checkout - done automation
 
 **Seed:** `tests/seed.spec.ts`
 
@@ -157,7 +157,7 @@ End-to-end coverage for the Tricentis Demo Web Shop at https://demowebshop.trice
   3. Close the dialog, accept the terms, and select Checkout.
     - expect: Checkout proceeds to the sign-in/registration screen with a Checkout as Guest option for an unauthenticated shopper.
 
-#### 3.4. Complete a guest purchase
+#### 3.4. Complete a guest purchase - done automation
 
 **File:** `tests/shopping/guest-checkout.spec.ts`
 

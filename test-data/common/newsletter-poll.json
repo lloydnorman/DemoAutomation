@@ -1,0 +1,8 @@
+{
+  "invalidEmail": "invalid-email",
+  "newsletterEmailPrefix": "qa.newsletter",
+  "invalidEmailMessage": "Enter valid email",
+  "subscriptionSuccessMessage": "Thank you for signing up! A verification email has been sent. We appreciate your interest.",
+  "pollOption": "Good",
+  "guestVoteRestrictedMessage": "Only registered users can vote."
+}

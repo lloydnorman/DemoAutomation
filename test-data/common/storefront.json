@@ -1,0 +1,16 @@
+{
+  "computerCategory": "Computers",
+  "desktopCategory": "Desktops",
+  "booksCategory": "Books",
+  "productAvailability": "Availability: In stock",
+  "productListingPrice": "1200.00",
+  "productDescription": "Fight back against cluttered workspaces with this stylish All-in-One desktop PC",
+  "noResultsQueryPrefix": "qa-no-such-product",
+  "noResultsMessage": "No products were found that matched your criteria.",
+  "minimumSearchLengthMessage": "Search term minimum length is 3 characters",
+  "wishlistProductName": "Fiction EX",
+  "wishlistProductPath": "/fiction-ex",
+  "wishlistAddedMessage": "The product has been added to your wishlist",
+  "wishlistEmptyMessage": "The wishlist is empty!",
+  "emptyCompareListMessage": "You have no items to compare."
+}
